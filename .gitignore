@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+# Usually these files are written into a _MEIPASS folder
+# https://github.com/pyinstaller/pyinstaller/wiki/How-to-Exclude-Files#excluding-files-at-build-time
+_MEIPASS/
+_MEIPASS*
+#  The bootloader which is generated is unpacked by pyinstaller
+#  into a temporary directory
+#
+#  You can make some of these files available by making them part
+#  of the "data" option.
+#
+#  Examples are these:
+#
+#*.exe
+#*.so
+#*.dll
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Environments
+.venv
+venv
+ENV
+env.bak
+venv.bak
+
+# IDE
+.idea
+*.suo
+.ntvs
+*.njsproj
+*.sln
+*.swp
